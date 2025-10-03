@@ -1,1 +1,28 @@
 
+{
+  "focuses": [
+    {"id":"scan","name":"Scan avant réception","tip":"Lever la tête 2x avant la passe"},
+    {"id":"repli","name":"Repli rapide","tip":"3 strides explosifs vers la zone"},
+    {"id":"bande","name":"Bataille bande","tip":"Bassin bas, épaules fortes"},
+    {"id":"ecran","name":"Écran gardien","tip":"Bouger, bâton libre, pas de pénalité"},
+    {"id":"dispo","name":"Se rendre dispo","tip":"Décrochements courts et angle ouvert"},
+    {"id":"passeVite","name":"Passe rapide","tip":"Décision < 1s, palette au sol"},
+    {"id":"tirRebond","name":"Tir pour rebond","tip":"Bas du filet, trafic"},
+    {"id":"communication","name":"Communication","tip":"Appel clair 'ici !' + bâton visible"}
+  ],
+  "missionTemplates": [
+    {"focus":"scan","label":"Scans avant réception","unit":"scans","target":6,"pts":2,"bonus":6},
+    {"focus":"repli","label":"Replis sprint","unit":"replis","target":4,"pts":3,"bonus":8},
+    {"focus":"bande","label":"Batailles gagnées","unit":"batailles","target":3,"pts":4,"bonus":10},
+    {"focus":"ecran","label":"Écrans efficaces","unit":"écrans","target":3,"pts":3,"bonus":8},
+    {"focus":"dispo","label":"Démarquages utiles","unit":"démarquages","target":5,"pts":2,"bonus":6},
+    {"focus":"passeVite","label":"Passes rapides réussies","unit":"passes","target":5,"pts":2,"bonus":6},
+    {"focus":"tirRebond","label":"Tirs pour rebond","unit":"tirs","target":4,"pts":3,"bonus":8},
+    {"focus":"communication","label":"Communications utiles","unit":"calls","target":6,"pts":2,"bonus":6}
+  ],
+  "journalPrompts": [
+    "Qu’ai-je bien fait aujourd’hui ? (1 action concrète)",
+    "Où puis-je m’améliorer au prochain entraînement ?",
+    "Ai-je appliqué mes 2 focus en match ? Donne 1 exemple."
+  ]
+}
